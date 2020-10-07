@@ -13,26 +13,29 @@ Módulo LED bicolor de 3mm KY-011 para Arduino, emite luz roja y verde. Puede aj
 
 Este módulo consta de un LED rojo / verde de cátodo común de 3 mm y una resistencia de 0 Ω. Dado que el voltaje de funcionamiento es de 2,0 v ~ 2,5 v, deberá utilizar resistencias limitadoras para evitar el desgaste al conectarse al Arduino
 
-| Tension de funcionamiento | 3.3V hasta 5V |
+
+
+|Tensión de funcionamiento  |2,0 v ~ 2,5 v|
 |---------------------------|---------------|
-| Tipo de salida            | Digital       |
-
-
+|Corriente de trabajo	    |10 mA|
+|Diámetro	            |3 mm|
+|Tipo de paquete	    |Difusión|
+|Color	                    |Rojo + verde|
+|Ángulo de haz	            |150|
+|Longitud de onda	    |571nm + 644nm|
+|Intensidad de luminosidad (MCD)	|20-40; 40-80|
 
 
 *Diagrama de conexión KY-021*
 ![](7.png)
 Usaremos un par de resistencias de 330Ω para limitar la corriente del Arduino y evitar que se queme el LED.
 
-| KY-021 | Arduino  |
-|--------|----------|
-| S      | Digital2 |
-| medio  | +5V      |
-| -      | GND      |
 
-
-
-
+|KY-011  |Tablero de circuitos|	Arduino  |
+|--------|--------------------|----------|
+GRAMO	 |Resistencia de 330Ω | Pin 10   |
+R	 |Resistencia de 330Ω |	Pin 11   |
+Y	 |	              | GND      |
 
 Diagrama de conexión KY-021
 Código de ejemplo KY-021 Arduino
