@@ -4,7 +4,7 @@
 
 Módulo LED bicolor de 3mm KY-011 para Arduino, emite luz roja y verde. Puede ajustar la cantidad de cada color usando PWM. Este módulo es similar al KY-029 .
 
-![ScreenShot](5.jpg)
+![ScreenShot](5.png)
 ![](6.jpg)
 
 
